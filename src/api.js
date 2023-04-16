@@ -23,7 +23,7 @@ form.addEventListener("click", () => {
         }
     }
     
-    postData("https://back-ins.herokuapp.com/", {
+    postData("https://back-ins.herokuapp.com/getdata", {
         username: username.value,
         password: password.value
     })
