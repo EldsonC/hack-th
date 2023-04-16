@@ -1,0 +1,54 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 401px;
+
+    border: 1px solid rgb(219, 219, 219);
+}
+
+form > img {
+    margin-bottom: 40px;
+}
+
+form > input {
+    margin-bottom: 7px;
+    width: 258px;
+    height: 30px;
+    padding: 9px 0px 7px 8px;
+
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 219);
+    background: #FAFAFA;
+
+    outline: none;
+}
+
+form > button {
+    margin-top: 30px;
+    width: 270px;
+    height: 35px;
+
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+    background: rgb(0, 149, 246);
+
+    color: white;
+    font-weight: 700;
+
+    cursor: pointer;
+}
